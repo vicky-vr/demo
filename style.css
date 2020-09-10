@@ -7,7 +7,7 @@ body{
     background-color: #72778f;
 }
 
-p{
+body p{
     margin: 10px;
     font-size: 20px;
 }
@@ -56,10 +56,10 @@ nav .burger{
     display:none;
 }
 
+
+
+
 @media screen and (max-width: 625px){
-    body{
-        overflow: hidden;
-    }
     .nav-links{
         position: absolute;
         display:none;
@@ -80,6 +80,11 @@ nav .burger{
     .nav-active{
         display:flex;
     }
+
+    nav li{
+        font-size: 12px;
+        width: 10vh;
+    } 
 
 }
 
