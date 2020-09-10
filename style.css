@@ -60,30 +60,17 @@ nav a{
     background-color:black;
 }
 
-.burger .line3{
-    width:25px;
-    height:4px;
-    margin:4px;
-    background-color:black;
-} */
-
 nav .burger{
     display:none;
 }
 
-@media screen and (max-width:750px){
-    .nav-links{
-        font-size: 18px;
-    }
-}
-
-@media screen and (max-width: 650px){
+@media screen and (max-width: 625px){
     body{
         overflow: hidden;
     }
     .nav-links{
         position: absolute;
-        display:flex;
+        display:none;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -92,8 +79,6 @@ nav .burger{
         height: 92vh;
         width:28%;
         background-color: #453f73;
-        transform: translateX(100%);
-
     }
     nav .burger{
         display:block;
@@ -101,7 +86,7 @@ nav .burger{
     }
 
     .nav-active{
-        transform:translateX(0%);
+        display:flex;
     }
 
 }
